@@ -75,7 +75,7 @@ def show_classification_details(y_tr, y_pr):
     plt.figure()
     plt.plot([0, 1], label="Baseline", linestyle="--")
     plt.plot(fpr, tpr, label="Regression")
-    plt.title("Logistic Regression ROC AUC = %0.3f" % roc_auc)
+    plt.title("ROC AUC = %0.3f" % roc_auc)
     plt.ylabel("True Positive Rate")
     plt.xlabel("False Positive Rate")
     plt.legend(loc="lower right")
