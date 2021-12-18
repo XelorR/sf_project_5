@@ -81,3 +81,18 @@ def show_classification_details(y_tr, y_pr):
     plt.legend(loc="lower right")
     plt.show()
     pprint(classification_report(y_tr, y_pr).split("\n"))
+
+
+def plot_roc_auc(y_tr, y_pr):
+
+    roc_auc = roc_auc_score(y_tr, y_pr)
+    fpr, tpr, threshold = roc_curve(y_tr, y_pr)
+
+    plt.figure(figsize=(9, 7))
+    plt.plot([0, 1], label="Baseline", linestyle="--")
+    plt.plot(fpr, tpr, label="AUC = %0.4f" % roc_auc)
+    plt.title("ROC AUC = %0.8f" % roc_auc, fontsize=15)
+    plt.ylabel("True Positive Rate (TPR)", fontsize=15)
+    plt.xlabel("False Positive Rate (FPR)", fontsize=15)
+    plt.legend(loc="lower right", fontsize=15)
+    plt.show()
