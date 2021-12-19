@@ -8,7 +8,7 @@
 
 В хронологическом порядке. Более детальные подробности - в самих ноутбуках.
 
-### kaggle score $0.04067$, [Credit_scoring.ipynb](Credit_scoring.ipynb)
+### kaggle score 0.04067, [Credit_scoring.ipynb](Credit_scoring.ipynb)
 
 Ноутбук Артура, основан на бейзлайне. Ознакомившись с ним, я сделал ряд выводов, которые мне помогли в дальнейшем
 
@@ -16,19 +16,19 @@
 
 В этом ноутбуке я решал задачи курса, в процессе улучшил некоторые из своих [функций для визуализации данных](data_viz_functions.py)
 
-### kaggle score $0.06177$, [overview_kaggle_pp_first_try.ipynb](overview_kaggle_pp_first_try.ipynb)
+### kaggle score 0.06177, [overview_kaggle_pp_first_try.ipynb](overview_kaggle_pp_first_try.ipynb)
 
 Здесь я впервые ознакомился с версией датасета с кеггла и начал препроцессинг
 
-### kaggle score $0.06658$, [pp_scoring_from_scratch.ipynb](pp_scoring_from_scratch.ipynb)
+### kaggle score 0.06658, [pp_scoring_from_scratch.ipynb](pp_scoring_from_scratch.ipynb)
 
 Версия предыдущего, переписанная с нуля чтоб не путаться, занимался перебором моделей
 
-### kaggle score $0.33933$, [pp_tuned_baseline.ipynb](pp_tuned_baseline.ipynb)
+### kaggle score 0.33933, [pp_tuned_baseline.ipynb](pp_tuned_baseline.ipynb)
 
 Второй бейзлайн, взятый с кеггла, хороший препроцессинг и хорошо подобранные параметры линейной регрессии. Исправив несколько ошибок, увеличил рейтинг, также играл в разные можели, проверял что работает, а что нет
 
-### kaggle score $\red{0.34004}$, [pp_baseline_short.ipynb](pp_baseline_short.ipynb)
+### kaggle score **0.34004**, [pp_baseline_short.ipynb](pp_baseline_short.ipynb)
 
 **Финальный**. Переписанный с нуля предыдущий. Изучил фреймворк [Optuna](https://optuna.org/) для оптимизации гипперпараметров, выбрал модель, подобрал гипперпараметры к модели, попробовал различные метрики для оптимизации, сравнил множество моделей, выбрал лучшую.
 
